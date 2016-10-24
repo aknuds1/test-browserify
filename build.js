@@ -5,5 +5,5 @@ const b = browserify({
   entries: [path.join(__dirname, 'index.js'),],
   transform: ['es2020',],
 })
-b.transform('sheetify/transform', {use: 'sheetify-stylus'})
+b.transform('sheetify/transform', {use: '@arve.knudsen/sheetify-stylus'})
 b.bundle().pipe(process.stdout)
