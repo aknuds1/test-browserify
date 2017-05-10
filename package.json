@@ -6,10 +6,10 @@
   "dependencies": {
     "@arve.knudsen/sheetify-stylus": "^1.0.3",
     "purecss": "^0.6.0",
-    "sheetify": "^5.1.1"
+    "sheetify": "^6.0.2"
   },
   "devDependencies": {
-    "browserify": "^13.1.1",
+    "browserify": "^14.3.0",
     "es2020": "^1.1.9"
   },
   "scripts": {
